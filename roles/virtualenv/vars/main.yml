@@ -1,0 +1,5 @@
+---
+python3_version: 3.4.3
+python3_src_dir: /usr/local/src
+python3_virtualenvs_dir: "{{ WORK_DIR }}/.virtualenvs"
+python3_virtualenv_dir: "{{ python3_virtualenvs_dir }}/env01"

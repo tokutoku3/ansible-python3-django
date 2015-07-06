@@ -1,0 +1,3 @@
+---
+- name: Install Git
+  apt: pkg=git update_cache=yes state=latest

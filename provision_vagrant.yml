@@ -1,0 +1,13 @@
+- hosts: vagrant
+  become: yes
+  user: vagrant
+  roles:
+    - git
+    - vim
+    - python
+    - mariadb
+
+- hosts: vagrant
+  user: vagrant
+  roles:
+    - virtualenv

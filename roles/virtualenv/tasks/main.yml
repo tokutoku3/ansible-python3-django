@@ -1,0 +1,9 @@
+---
+- name: Install virtualenv
+  command: mkdir {{ python3_virtualenvs_dir }} creates={{ python3_virtualenvs_dir }}
+
+- name: Install Django on virtualenv
+  pip: name=Django virtualenv={{ python3_virtualenv_dir }} state=latest
+
+
+

@@ -1,0 +1,9 @@
+---
+- name: Setup Python3 + Django1.8 + MariaDB
+  hosts: 127.0.0.1
+  connection: local
+
+  roles:
+    - python3
+
+

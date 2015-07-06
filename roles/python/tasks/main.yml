@@ -1,0 +1,6 @@
+---
+- name: Install python
+  apt: pkg={{ item }} update_cache=yes state=latest
+  with_items:
+    - python-pip
+    - python-virtualenv
